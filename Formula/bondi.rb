@@ -1,7 +1,7 @@
 class Bondi < Formula
   desc "Bondi CLI"
   homepage "https://github.com/puravida-software/bondi"
-  version "0.24.0" # update on release
+  version "0.24.1" # update on release
 
   on_macos do
     if Hardware::CPU.arm?
@@ -14,7 +14,7 @@ class Bondi < Formula
 
   on_linux do
     url "https://github.com/puravida-software/bondi/releases/download/v#{version}/bondi-linux-x86_64.tar.gz"
-    sha256 "b101420a05d52b2398c6bde65aa0003b4eb0a2c7b9b7d48f54656fa1788d0763"
+    sha256 "bcc8f5974a652873d6daea875a12133f866e3db828c87a82c28e111e14977fe0"
   end
 
   def install
