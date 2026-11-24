@@ -1,11 +1,11 @@
 class Bondi < Formula
   desc "Bondi CLI"
   homepage "https://github.com/puravida-software/bondi"
-  version "0.28.0" # update on release
+  version "0.29.0" # update on release
 
   on_linux do
     url "https://github.com/puravida-software/bondi/releases/download/v#{version}/bondi-linux-x86_64.tar.gz"
-    sha256 "34521cd752a1e030d39580d7ece81579ee22737d8f59a229dfc23e571a1f514e"
+    sha256 "e57865c115168cad4276fc2e0b4f6d8d7568db2675820cd17c31330882fa838d"
   end
 
   def install
